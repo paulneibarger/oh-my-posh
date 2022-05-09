@@ -151,19 +151,20 @@
         "newline": true,
         "segments": [
             {
-                "background": "#DC291E",
+                "background": "#047a00",
                 "foreground": "#ffffff",
                 "leading_diamond": "\ue0b6",
                 "style": "diamond",
                 "template": " {{ .UserName }} ",
+                "trailing_diamond": "\ue0b0",
                 "type": "session"
             },
             {
                 "background": "#DC291E",
-                "foreground": "#ffffff",
-                "powerline_symbol": "\ue0b0",
-                "style": "diamond",
-                "template": " \uf292 ",
+                "foreground": "white",
+                "leading_diamond": "<transparent,background>\ue0b0</>",
+                "style":"diamond",
+                "template": " \uf292",
                 "trailing_diamond": "\ue0b0",
                 "type": "root"
             }
@@ -174,4 +175,3 @@
   "final_space": true,
   "version": 2
 }
-
